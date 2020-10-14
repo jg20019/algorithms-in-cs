@@ -6,7 +6,8 @@ namespace data_structures_and_algorithms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] numbers = {1, 2, 3, 4, 5}; 
+            Console.WriteLine(BinarySearch.IterativeSearch(numbers, 5));   
         }
     }
 }
